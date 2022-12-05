@@ -1,15 +1,21 @@
 /*Global styles*/
 
 body {
-    background-color:dimgray;
+    background-color:black
  }
 
  header {
     background-color:aliceblue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+
  }
 
  main {
-    background-color:deepskyblue;
+    background-color:dimgray;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
  footer{
@@ -18,7 +24,17 @@ body {
 
  /* section styles */
 
- section {
-    border: 1px solid black;
-    padding: 5px;
+ .container {
+    position: relative;
+    text-align: left;
+    color: white;
  }
+
+ .bottom-left {
+    position: absolute;
+    bottom: 370px;
+    left: 106px;
+  }
+ 
+
+ 
